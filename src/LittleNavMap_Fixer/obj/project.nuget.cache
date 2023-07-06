@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YaMKFmGCI9eRTvXagjHaZ4iI7p6FSApOOWa7uvGXFeLVg5wjOdZF5/QQBrNt8jyLwctB9xOEOzd0IrXjo2PMEA==",
+  "success": true,
+  "projectFilePath": "E:\\Temp\\lnmp_fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\ookii.dialogs.wpf\\5.0.1\\ookii.dialogs.wpf.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

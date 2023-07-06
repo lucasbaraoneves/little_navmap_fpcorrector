@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleNavMap_Fixer", "LittleNavMap_Fixer\LittleNavMap_Fixer.csproj", "{700ECAB3-E4BA-4CAE-A920-87CC790E658D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F7E67F52-283D-4B3F-BA36-0862F5C1801F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{700ECAB3-E4BA-4CAE-A920-87CC790E658D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700ECAB3-E4BA-4CAE-A920-87CC790E658D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700ECAB3-E4BA-4CAE-A920-87CC790E658D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700ECAB3-E4BA-4CAE-A920-87CC790E658D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E67F52-283D-4B3F-BA36-0862F5C1801F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E67F52-283D-4B3F-BA36-0862F5C1801F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E67F52-283D-4B3F-BA36-0862F5C1801F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E67F52-283D-4B3F-BA36-0862F5C1801F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B653E89E-0BE9-40DF-B81A-22D17B434F40}
+	EndGlobalSection
+EndGlobal

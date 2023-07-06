@@ -1,0 +1,15 @@
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+E:\Temp\lnmp_fixer\LittleNavMap_Fixer\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
