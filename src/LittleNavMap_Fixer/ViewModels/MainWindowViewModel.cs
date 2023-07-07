@@ -101,7 +101,10 @@ namespace LittleNavMap_Fixer.ViewModels
                 MessageBox.Show("Because you are not using Windows Vista or later, the regular open file dialog will be used. Please use Windows Vista to see the new dialog.", "Sample open file dialog");
 
             if ((bool)dialog.ShowDialog())
+            {
                 MsfsFlightPlanFile = dialog.FileName;
+                MsfsFolder = string.Empty;
+            }
         }
 
         public void FolderSelect(object sender)
@@ -118,26 +121,35 @@ namespace LittleNavMap_Fixer.ViewModels
             if ((bool)dialog.ShowDialog())
             {
                 MsfsFolder = dialog.SelectedPath;
-
-                //MessageBox.Show($"The selected folder was:{Environment.NewLine}{dialog.SelectedPath}", "Sample folder browser dialog");
+                MsfsFlightPlanFile = string.Empty;
             }
         }
 
         public void ApplyCorrection(object sender)
         {
-            var baseFiles = Directory.GetFiles(MsfsFolder);
-
-            var fileList = (from a in baseFiles where a.Contains(".pln") select a).ToList();
-
-            int totalFiles = 0;
-
-            foreach (var item in fileList)
+            if (!string.IsNullOrEmpty(MsfsFlightPlanFile))
             {
-                if (PlnFixer.FixFlightPlan(item, OverrideOriginals))
-                    totalFiles = totalFiles + 1;
+                PlnFixer.FixFlightPlan(MsfsFlightPlanFile, OverrideOriginals);
+                TotalFixedFiles = "Total files fixed: 1";
             }
 
-            TotalFixedFiles = "Total files fixed: " + totalFiles.ToString();
+            if (!string.IsNullOrEmpty(MsfsFolder))
+            {
+                var baseFiles = Directory.GetFiles(MsfsFolder);
+
+                var fileList = (from a in baseFiles where a.Contains(".pln") select a).ToList();
+
+                int totalFiles = 0;
+
+                foreach (var item in fileList)
+                {
+                    if (PlnFixer.FixFlightPlan(item, OverrideOriginals))
+                        totalFiles = totalFiles + 1;
+                }
+
+                TotalFixedFiles = "Total files fixed: " + totalFiles.ToString();
+
+            }
         }
     }
 }
