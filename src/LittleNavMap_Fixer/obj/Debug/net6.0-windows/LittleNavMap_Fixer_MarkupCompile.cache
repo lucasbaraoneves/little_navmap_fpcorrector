@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\Temp\lnmp_fixer\LittleNavMap_Fixer\LittleNavMap_Fixer\obj\Debug\net6.0-windows\
+E:\Projetos_Pessoais\little_navmap_fpcorrector\src\LittleNavMap_Fixer\obj\Debug\net6.0-windows\
 LittleNavMap_Fixer
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-E:\Temp\lnmp_fixer\LittleNavMap_Fixer\LittleNavMap_Fixer\App.xaml
+E:\Projetos_Pessoais\little_navmap_fpcorrector\src\LittleNavMap_Fixer\App.xaml
 11407045341
 
 7-1263877417
 204-1418182125
 MainWindow.xaml;
 
-False
+True
 

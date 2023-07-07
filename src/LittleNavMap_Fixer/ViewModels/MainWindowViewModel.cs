@@ -15,6 +15,18 @@ namespace LittleNavMap_Fixer.ViewModels
         private string _msfsFolder;
         private bool _overrideOriginals;
         private string _totalFixedFiles;
+        private string _msfsFlightPlanFile;
+
+        public string MsfsFlightPlanFile
+        {
+            get { return _msfsFlightPlanFile; }
+            set
+            {
+                _msfsFlightPlanFile = value;
+                NotifyPropertyChanged("MsfsFlightPlanFile");
+            }
+        }
+
 
         public string TotalFixedFiles
         {
@@ -40,6 +52,13 @@ namespace LittleNavMap_Fixer.ViewModels
 
         private ICommand _folderSelectCommand;
         private ICommand _applyCorrectionCommand;
+        private ICommand _fileSelectCommand;
+
+        public ICommand FileSelectCommand
+        {
+            get { return _fileSelectCommand; }
+            set { _fileSelectCommand = value; }
+        }
 
         public ICommand ApplyCorrectionCommand
         {
@@ -69,7 +88,20 @@ namespace LittleNavMap_Fixer.ViewModels
         {
             FolderSelectCommand = new RelayCommand(new Action<object>(FolderSelect));
             ApplyCorrectionCommand = new RelayCommand(new Action<object>(ApplyCorrection));
+            FileSelectCommand = new RelayCommand(new Action<object>(FileSelect));
             TotalFixedFiles = string.Empty;
+        }
+
+        public void FileSelect(object sender)
+        {
+            // As of .Net 3.5 SP1, WPF's Microsoft.Win32.OpenFileDialog class still uses the old style
+            VistaOpenFileDialog dialog = new VistaOpenFileDialog();
+            dialog.Filter = "MSFS Flight Plan Files (*.pln)|*.pln";
+            if (!VistaFileDialog.IsVistaFileDialogSupported)
+                MessageBox.Show("Because you are not using Windows Vista or later, the regular open file dialog will be used. Please use Windows Vista to see the new dialog.", "Sample open file dialog");
+
+            if ((bool)dialog.ShowDialog())
+                MsfsFlightPlanFile = dialog.FileName;
         }
 
         public void FolderSelect(object sender)
