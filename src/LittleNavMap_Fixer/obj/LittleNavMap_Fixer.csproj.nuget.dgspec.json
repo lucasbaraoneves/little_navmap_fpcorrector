@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Temp\\lnmp_fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj": {}
+    "E:\\Projetos_Pessoais\\little_navmap_fpcorrector\\src\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj": {}
   },
   "projects": {
-    "E:\\Temp\\lnmp_fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj": {
+    "E:\\Projetos_Pessoais\\little_navmap_fpcorrector\\src\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Temp\\lnmp_fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj",
+        "projectUniqueName": "E:\\Projetos_Pessoais\\little_navmap_fpcorrector\\src\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj",
         "projectName": "LittleNavMap_Fixer",
-        "projectPath": "E:\\Temp\\lnmp_fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj",
+        "projectPath": "E:\\Projetos_Pessoais\\little_navmap_fpcorrector\\src\\LittleNavMap_Fixer\\LittleNavMap_Fixer.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "E:\\Temp\\lnmp_fixer\\LittleNavMap_Fixer\\LittleNavMap_Fixer\\obj\\",
+        "outputPath": "E:\\Projetos_Pessoais\\little_navmap_fpcorrector\\src\\LittleNavMap_Fixer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

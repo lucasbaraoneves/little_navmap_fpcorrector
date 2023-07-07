@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CuxyRVendwVMvngJ3g4/4UnFIqE8CEhjW7UVyAnWov8h0PyccFIlfyQaeaI4oM7noVo+Afh2arv6OPcsEfQoYw==",
+  "dgSpecHash": "y+mMVvF+0r6nIJIzBkHyGqf9znxgg9AzEtSCM52mUEsfakz2GvsLa0QzHdH3LpEDdt5B2GE6A1b/wZ3yU3v6Yw==",
   "success": true,
-  "projectFilePath": "E:\\Temp\\lnmp_fixer\\LittleNavMap_Fixer\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "E:\\Projetos_Pessoais\\little_navmap_fpcorrector\\src\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

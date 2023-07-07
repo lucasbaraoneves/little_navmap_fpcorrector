@@ -93,11 +93,13 @@ namespace LittleNavMap_Fixer.ViewModels
 
         public void ApplyCorrection(object sender)
         {
-            var files = Directory.GetFiles(MsfsFolder);
+            var baseFiles = Directory.GetFiles(MsfsFolder);
+
+            var fileList = (from a in baseFiles where a.Contains(".pln") select a).ToList();
 
             int totalFiles = 0;
 
-            foreach (var item in files)
+            foreach (var item in fileList)
             {
                 if (PlnFixer.FixFlightPlan(item, OverrideOriginals))
                     totalFiles = totalFiles + 1;
